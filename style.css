@@ -3,3 +3,33 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1,
+nav,
+img {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  margin-left: 10px;
+  background-color: grey;
+}
+figcaption {
+  font-size: 15px;
+}
+section p {
+  width: 800px;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+}
+section {
+  width: 100%;
+}
+section div {
+  float: left;
+  width: 25%;
+  background-color: red;
+}
